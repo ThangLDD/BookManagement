@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="@dimen/dp_20"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".ui.activity.RemoveBookActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/xoa_sach"
+        android:textColor="@color/black"
+        android:textSize="@dimen/sp_30"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/edit_text_input_remove"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/dp_20"
+        android:layout_marginTop="@dimen/dp_100"
+        android:layout_marginRight="@dimen/dp_20"
+        android:autofillHints="name"
+        android:hint="@string/ten_sach"
+        android:inputType="text" />
+
+    <Button
+        android:id="@+id/button_find_remove"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="@dimen/dp_10"
+        android:background="@color/blue"
+        android:text="@string/tim_kiem" />
+
+    <ListView
+        android:id="@+id/list_view_find_remove"
+        android:layout_width="match_parent"
+        android:layout_height="194dp"
+        android:layout_marginLeft="@dimen/dp_20"
+        android:layout_marginTop="@dimen/dp_10"
+        android:layout_marginRight="@dimen/dp_20" />
+
+    <Button
+        android:id="@+id/button_remove_book_remove"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="@dimen/dp_10"
+        android:background="@color/blue"
+        android:text="@string/xoa_sach" />
+
+    <Button
+        android:id="@+id/button_back_from_remove"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="@dimen/dp_10"
+        android:background="@color/blue"
+        android:text="@string/ve_trang_chu" />
+
+</LinearLayout>

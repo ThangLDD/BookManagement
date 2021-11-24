@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="@dimen/dp_20"
+    android:orientation="vertical"
+    tools:context=".ui.activity.ListBookActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/chon_loai_sach" />
+
+        <Spinner
+            android:id="@+id/spinner_list_book"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/dp_10" />
+    </LinearLayout>
+
+    <ListView
+        android:id="@+id/list_view_list_book"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp_580"
+        android:layout_marginTop="@dimen/dp_10" />
+
+    <Button
+        android:id="@+id/button_back_from_list"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="@dimen/dp_10"
+        android:background="@color/blue"
+        android:text="@string/ve_trang_chu" />
+
+</LinearLayout>

@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">BookManagement</string>
+    <string name="dang_nhap">Đăng nhập</string>
+    <string name="ten_dang_nhap">Tên đăng nhập</string>
+    <string name="mat_khau">Mật khẩu</string>
+    <string name="nhan_vao_de_dang_ky">Bạn chưa có tài khoản? Nhấn vào đây để đăng ký</string>
+    <string name="dang_ky">Đăng ký</string>
+    <string name="chon_loai_sach">Chọn loại sách</string>
+    <string name="them_sach">Thêm sách</string>
+    <string name="sua_sach">Sửa sách</string>
+    <string name="xoa_sach">Xóa sách</string>
+    <string name="tim_sach">Tìm sách</string>
+    <string name="dang_xuat">Đăng xuất</string>
+    <string name="ten_sach">Tên sách</string>
+    <string name="tac_gia">Tác giả</string>
+    <string name="the_loai">Thể loại</string>
+    <string name="liet_ke_sach">Liệt kê sách</string>
+    <string name="ve_trang_chu">Về trang chủ</string>
+    <string name="nhap_ten_hoac_loai">Nhập tên sách hoặc loại sách</string>
+    <string name="tim_kiem">Tìm kiếm</string>
+</resources>
